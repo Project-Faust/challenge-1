@@ -1,13 +1,16 @@
+/* universal box sizing, padding, and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* white background for body of application */
 body {
     background-color: #d9dcd6;
 }
 
+/* gives header class padding, font family, background color, and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +18,7 @@ body {
     color: #ffffff;
 }
 
+/* display type and font size for h1 elements inside class="header" */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -22,6 +26,7 @@ body {
 
 /* removed redundancy for text color */
 
+/* gives padding, margin, alignment, font family, and font size for div elements inside class="header" */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -30,24 +35,29 @@ body {
     font-size: 20px;
 }
 
+/* removes list style type in browser for ul elements inside div inside class="header" */
 .header div ul {
     list-style-type: none;
 }
 
+/* sets display type and left margin for li elements inside ul elements inside div elements inside class="header" */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets white text color and removes text decoration from a elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets font size for p elements */
 p {
     font-size: 16px;
 }
 
+/* sets height, width, and bottom margin, adds background image, sets background size and posision for class="hero"  */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,22 +67,26 @@ p {
     background-position: center;
 }
 
+/* sets alignment and right margin for class="float-left" */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* sets alignment and left margin for class="float-right" */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets width, display type, and left margin for class="content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets margin, padding, width, height, font family, and background color, aligns float right, causes floats to not be considered inside element or block elements for class="benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,18 +99,21 @@ p {
 }
 
 /* Condensed class="benefits" div */
+/* sets bottom margin and text color white for div elements inside class="benefits" */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* condensed class="benefits h3 */
+/* sets bottom margin and aligns text to center for h3 elements inside class="benefits" */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* condensed class="benefits" img */
+/* sets display type to block, centers element via margin, sets max width for img elements inside class="benefits" */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -104,6 +121,7 @@ p {
 }
 
 /* condensed class="content" div */
+/* sets bottom margin, padding, height, font family, background and text color for div elements inside class-"content" */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,16 +132,19 @@ p {
 }
 
 /* condensed class="content" img */
+/* sets max height for img elements inside class="content" */
 .content img {
     max-height: 200px;
 }
 
 /* condensed class="content" h2 */
+/* sets bottom margin and font size for h2 elements inside class="content" */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets padding, removes object from being considered inside element or blcok element, sets font family, and aligns text to center for class="footer" */
 .footer {
     padding: 30px;
     clear: both;
@@ -131,6 +152,7 @@ p {
     text-align: center;
 }
 
+/* sets font size for h2 elements inside class="footer" */
 .footer h2 {
     font-size: 20px;
 }
