@@ -4,4 +4,4 @@ In this project, students such as myself sought to find and add semantic HTML el
 ![readme-thumbnail](https://user-images.githubusercontent.com/30759236/215622039-961fcbef-9c67-4ce8-9f1f-cdfd50740d75.png)
 
 Please view the deployed application by following this link.
-https://project-faust.github.io/challenge-1
+https://project-faust.github.io/horiseon-webdev/
